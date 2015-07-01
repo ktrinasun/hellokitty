@@ -1,13 +1,13 @@
+ï»¿
 
 
+  svn:é›†ä¸­å¼ç‰ˆæœ¬æ§åˆ¶ç³»ç»Ÿ
 
-  svn:¼¯ÖĞÊ½°æ±¾¿ØÖÆÏµÍ³
 
-
-  git£º·Ö²¼Ê½µÄ°æ±¾¿ØÖÆÏµÍ³
+  gitï¼šåˆ†å¸ƒå¼çš„ç‰ˆæœ¬æ§åˆ¶ç³»ç»Ÿ
 
    
-   github.com ½»»»  ´úÂëÍĞ¹ÜÍøÕ¾
+   github.com äº¤æ¢  ä»£ç æ‰˜ç®¡ç½‘ç«™
 
 
 gittest
@@ -19,7 +19,7 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/ktrinasun/gittest.git
 git push -u origin master
-¡­or push an existing repository from the command line
+â€¦or push an existing repository from the command line
 
 
 git remote add origin https://github.com/ktrinasun/gittest.git
@@ -29,68 +29,68 @@ git push -u origin master
 
 
 
-git¿Í»§¶Ë: github ,mysysgit
+gitå®¢æˆ·ç«¯: github ,mysysgit
 
 
-Ìí¼Ó»·¾³±äÁ¿£¬Ä¿µÄÈÃgitÔÚÈÎÒâcmd´°¿ÚÏÂ¿ÉÓÃ
+æ·»åŠ ç¯å¢ƒå˜é‡ï¼Œç›®çš„è®©gitåœ¨ä»»æ„cmdçª—å£ä¸‹å¯ç”¨
 
-md£º½¨Á¢Ä¿Â¼
-cd:½øÈëÄ³¼¶Ä¿Â¼
+mdï¼šå»ºç«‹ç›®å½•
+cd:è¿›å…¥æŸçº§ç›®å½•
 
 ---------------------------
 
- gitÄ¿Â¼³õÊ¼»¯:  git init
+ gitç›®å½•åˆå§‹åŒ–:  git init
 
- ²é¿´ÎÄ¼ş×´Ì¬£ºgit status
+ æŸ¥çœ‹æ–‡ä»¶çŠ¶æ€ï¼šgit status
 
- Ìí¼ÓÎÄ¼ş£ºgit add ÎÄ¼şÃû
+ æ·»åŠ æ–‡ä»¶ï¼šgit add æ–‡ä»¶å
  
 
- ²é¿´ĞŞ¸ÄµÄÄÚÈİ:git diff ÎÄ¼şÃû
+ æŸ¥çœ‹ä¿®æ”¹çš„å†…å®¹:git diff æ–‡ä»¶å
 
- Ìá½»ÄÚÈİ:git commit -m "×¢ÊÍÄÚÈİ"
+ æäº¤å†…å®¹:git commit -m "æ³¨é‡Šå†…å®¹"
 
- ¼Ç×¡:git¹ÜÀíµÄÊÇĞŞ¸Ä£¬²»ÊÇÎÄ¼ş
-
-
- ²é¿´Ìá½»¼ÇÂ¼£ºgit log
-
-   ps:git log --pretty=oneline ¸ñÊ½»¯Ìá½»¼ÇÂ¼
+ è®°ä½:gitç®¡ç†çš„æ˜¯ä¿®æ”¹ï¼Œä¸æ˜¯æ–‡ä»¶
 
 
+ æŸ¥çœ‹æäº¤è®°å½•ï¼šgit log
 
- ÈçºÎ½«±¾µØ·ÖÖ§(master)Ìá½»µÄÔ¶³Ìgithub.com
+   ps:git log --pretty=oneline æ ¼å¼åŒ–æäº¤è®°å½•
 
 
 
- ÅäÖÃ±¾µØÓÃ»§ÃûºÍÓÊÏä
+ å¦‚ä½•å°†æœ¬åœ°åˆ†æ”¯(master)æäº¤çš„è¿œç¨‹github.com
 
-ÀıÈç£º
+
+
+ é…ç½®æœ¬åœ°ç”¨æˆ·åå’Œé‚®ç®±
+
+ä¾‹å¦‚ï¼š
 git config --global user.name "sunjingdou"
 git config --global user.email "sunjingdou@163.com"
 
- ssh:¹«Ô¿ºÍÃÜÔ¿
+ ssh:å…¬é’¥å’Œå¯†é’¥
 
   ssh-keygen -t rsa -C "youremail@example.com"
 
-Á¬½Ó±¾µØµ½github
+è¿æ¥æœ¬åœ°åˆ°github
 
-¸ñÊ½£ºgit remote add origin git°æ±¾¿âµØÖ·
+æ ¼å¼ï¼šgit remote add origin gitç‰ˆæœ¬åº“åœ°å€
 
-ÀıÈç£º
+ä¾‹å¦‚ï¼š
 git remote add origin https://github.com/ktrinasun/gittest.git
 
 
-½«±¾µØ´úÂëÍÆËÍµ½githubÉÏ
+å°†æœ¬åœ°ä»£ç æ¨é€åˆ°githubä¸Š
 git push -u origin master
    
 
-error½â¾ö:
+errorè§£å†³:
 http://www.csdn123.com/html/topnews201408/57/1557.htm
 
 ssh -T git@github.com
 
-ssh-configÂ·¾¶
+ssh-configè·¯å¾„
  C:\Users\Administrator\AppData\Local\GitHub\PortableGit_6d98349f44ba975cf6c762a720f8259a267ea445\etc\ssh
  
 
@@ -104,12 +104,12 @@ git@github.com:ktrinasun/c1309.git
 
 cli
 
-GUI·½Ê½
+GUIæ–¹å¼
 
-²Î¿¼×ÊÔ´£º
+å‚è€ƒèµ„æºï¼š
 http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
-ssh git push³öÎÊÌâÊ±½â¾ö·½°¸£º
+ssh git pushå‡ºé—®é¢˜æ—¶è§£å†³æ–¹æ¡ˆï¼š
 http://www.csdn123.com/html/topnews201408/57/1557.htm
 
 C:\Users\Administrator\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\etc\ssh
