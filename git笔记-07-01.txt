@@ -1,0 +1,123 @@
+
+
+
+  svn:集中式版本控制系统
+
+
+  git：分布式的版本控制系统
+
+   
+   github.com 交换  代码托管网站
+
+
+gittest
+
+
+echo # gittest >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ktrinasun/gittest.git
+git push -u origin master
+…or push an existing repository from the command line
+
+
+git remote add origin https://github.com/ktrinasun/gittest.git
+git push -u origin master
+
+
+
+
+
+git客户端: github ,mysysgit
+
+
+添加环境变量，目的让git在任意cmd窗口下可用
+
+md：建立目录
+cd:进入某级目录
+
+---------------------------
+
+ git目录初始化:  git init
+
+ 查看文件状态：git status
+
+ 添加文件：git add 文件名
+ 
+
+ 查看修改的内容:git diff 文件名
+
+ 提交内容:git commit -m "注释内容"
+
+ 记住:git管理的是修改，不是文件
+
+
+ 查看提交记录：git log
+
+   ps:git log --pretty=oneline 格式化提交记录
+
+
+
+ 如何将本地分支(master)提交的远程github.com
+
+
+
+ 配置本地用户名和邮箱
+
+例如：
+git config --global user.name "sunjingdou"
+git config --global user.email "sunjingdou@163.com"
+
+ ssh:公钥和密钥
+
+  ssh-keygen -t rsa -C "youremail@example.com"
+
+连接本地到github
+
+格式：git remote add origin git版本库地址
+
+例如：
+git remote add origin https://github.com/ktrinasun/gittest.git
+
+
+将本地代码推送到github上
+git push -u origin master
+   
+
+error解决:
+http://www.csdn123.com/html/topnews201408/57/1557.htm
+
+ssh -T git@github.com
+
+ssh-config路径
+ C:\Users\Administrator\AppData\Local\GitHub\PortableGit_6d98349f44ba975cf6c762a720f8259a267ea445\etc\ssh
+ 
+
+
+https:
+https://github.com/ktrinasun/c1309.git
+
+ssh
+git@github.com:ktrinasun/c1309.git
+
+
+cli
+
+GUI方式
+
+参考资源：
+http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+ssh git push出问题时解决方案：
+http://www.csdn123.com/html/topnews201408/57/1557.htm
+
+C:\Users\Administrator\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\etc\ssh
+
+
+
+
+
+
+
+
